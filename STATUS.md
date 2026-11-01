@@ -47,6 +47,6 @@ not pushed, no GitHub repo yet.
 1. Decided by the channel owner 2026-11-01: song bundled; `kit/src/lyrics.js` (original lyrics + timings) stays, credited
    to osmarks and JohnHeibel/PDoomVideo; no channel mascot in the kit (the storyboard's human is a neutral person); repo name `Kreycin/pdoom-mv-kit` (the URL in
    PROMPT.md). Name approved, publishing not.
-2. Before publishing: add the clip link and the channel link to README.
+2. Clip (https://youtu.be/sVyFN8fBPkM) and channel (https://www.youtube.com/@kreycin) links are in README.
 3. Optional: an `examples/` folder with one AI's contest scenes, so viewers can render a finished MV with no agent work.
 4. Publishing (GitHub repo, push) only with the channel owner's OK.

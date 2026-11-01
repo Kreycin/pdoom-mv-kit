@@ -8,7 +8,7 @@
 > [JohnHeibel/PDoomVideo](https://github.com/JohnHeibel/PDoomVideo) · เพลง: osmarks (ทำด้วย Udio, 2024).
 > ถ้าชอบชุดนี้ ฝากไปดู MV ต้นฉบับ และกดดาวให้ repo ต้นฉบับด้วยนะครับ ⭐
 
-ชุดนี้มาจากคลิปช่อง YouTube **Kreycin** ที่ให้ AI 3 ค่าย (Claude Opus 5.5, Gemini 4 Argon, DeepSeek V4.1 Flash) ทำ MV
+ชุดนี้มาจาก[คลิปช่อง YouTube **Kreycin**](https://youtu.be/sVyFN8fBPkM) ที่ให้ AI 3 ค่าย (Claude Opus 5.5, Gemini 4 Argon, DeepSeek V4.1 Flash) ทำ MV
 เพลงนี้จากสตอรี่บอร์ดเดียวกัน. คุณได้ชุดเดียวกับที่ AI ทั้ง 3 ได้: ตัววาด, สตอรี่บอร์ด, จังหวะเนื้อร้อง
 และไฟล์เพลง (ตัวละครมนุษย์ในสตอรี่บอร์ดเป็นคนธรรมดา เปลี่ยนเป็นตัวของคุณเองได้). วิธีคิดเบื้องหลังเล่าไว้ในคลิป
 [สอนทำหนังแอนิเมชันด้วย Claude](https://youtu.be/_g7sFMynQ3E) ([repo หนังเรื่องนั้น](https://github.com/Kreycin/ton-sea))
@@ -81,7 +81,8 @@
   คลิปปี 2024 ที่ repo ต้นฉบับอ้างถึง: https://www.youtube.com/watch?v=uEB5E67vcPA
 - **ไลบรารี** [p5.js](https://p5js.org) (LGPL-2.1), [p5.brush](https://github.com/acamposuribe/p5.brush) โดย
   Alejandro Campos Uribe (MIT), [Puppeteer](https://pptr.dev) (Apache-2.0): ติดตั้งผ่าน npm ไม่ได้รวมไว้ใน repo
-- **ชุดนี้** (สตอรี่บอร์ด, ขั้นตอน, เครื่องมือใน `kit/tools/`): Kreycin
+- **ชุดนี้** (สตอรี่บอร์ด, ขั้นตอน, เครื่องมือใน `kit/tools/`): [Kreycin](https://www.youtube.com/@kreycin) ·
+  คลิปที่มาของชุดนี้: https://youtu.be/sVyFN8fBPkM
 
 license MIT ([LICENSE](LICENSE)) ครอบคลุมเฉพาะโค้ด ไม่รวมเพลง: เพลงและเนื้อเพลงเป็นของผู้แต่ง
 
@@ -95,7 +96,8 @@ Cursor and any agent that can run commands and open images. Your own song: [docs
 
 > **Originals:** the [original MV](https://www.youtube.com/watch?v=8j-hR4fJywU) (OtherReality) and its
 > [source code](https://github.com/JohnHeibel/PDoomVideo); song by osmarks (made with Udio, 2024). If you like this
-> kit, please watch the original and star its repo.
+> kit, please watch the original and star its repo. This kit comes from
+> [this Kreycin video](https://youtu.be/sVyFN8fBPkM), where three AIs made the MV from one storyboard.
 
 **How:** make an empty folder, open your agent there, paste the prompt from [PROMPT.md](PROMPT.md). The agent clones
 this repo, follows [AGENTS.md](AGENTS.md) and stops three times for you to look: the 10 s preview (proves your machine
