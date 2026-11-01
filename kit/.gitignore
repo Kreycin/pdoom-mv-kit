@@ -1,0 +1,7 @@
+node_modules/
+out/
+assets/*
+!assets/.gitkeep
+!assets/pdoom.mp3
+!assets/SONG_CREDITS.md
+.DS_Store

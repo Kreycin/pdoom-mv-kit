@@ -1,0 +1,23 @@
+{
+  "name": "pdoom-mv-kit",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Make a hand-painted animated music video in code with your AI coding agent (p5.js + p5.brush, headless Chrome, ffmpeg)",
+  "scripts": {
+    "doctor": "node tools/doctor.mjs",
+    "preview": "node render.mjs --clip --range=0:10 --out=out/preview.mp4",
+    "sheet": "node render.mjs --sheet=1,3,5,7,9,11 --cols=3 --w=640 --out=out/check/sheet.jpg",
+    "frames": "node render.mjs --frames --fresh --workers=2",
+    "final": "node render.mjs --encode --out=out/final.mp4",
+    "render": "npm run frames && npm run final"
+  },
+  "dependencies": {
+    "p5": "^2.3.3",
+    "p5.brush": "^2.2.3",
+    "puppeteer-core": "^25.11.0"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
