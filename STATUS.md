@@ -36,7 +36,12 @@ not pushed, no GitHub repo yet.
 - Placeholder scene now bounces on every beat for the whole song (it used to stop at 4 s).
 - `check_storyboard.mjs` on storyboard/pdoom.md: OK. `song_info.mjs` on pdoom.mp3: 132 BPM, beat grid within 16 ms.
 - `lyrics_from_srt.mjs` on sample SRT, VTT, LRC and Audacity label files: OK.
-- Not tested: a full agent run from PROMPT.md (1–1.5 h; the contest runs used the same kit), Windows/Linux machines.
+- Agent run (2026-11-01): Claude Code headless, Sonnet, no user CLAUDE.md/skills/MCP, empty folder, PROMPT.md prompt 1
+  (clone redirected to this local repo). Check-in 1 after 1 min ($0.25); check-in 2 after 10 min ($1.98, 4 model
+  sheets: Doomie, human, guests, hard poses); plain-words feedback on 2 hard poses fixed, then chapter 1 (0–22.92 s,
+  9 shots following the storyboard, chomp-to-black ending) and check-in 3 after 21 min ($4.51). Total 32 min, $6.74.
+  Stopped there: the other 8 chapters and the full render were not run by an agent.
+- Not tested: an agent past check-in 3, the full render, other agents (Codex, Gemini CLI, Cursor), Windows/Linux.
 
 ## Next
 1. Decided by the channel owner 2026-11-01: song bundled; `kit/src/lyrics.js` (original lyrics + timings) stays, credited
